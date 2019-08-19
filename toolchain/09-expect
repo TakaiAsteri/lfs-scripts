@@ -12,7 +12,7 @@ SRC=${SRC:-$(dirname $0)/src}
 NAME=expect
 VERSION=${EXPECT_VER}
 
-fetch "https://prdownloads.sourceforge.net/expect/expect$EXPECT_VER.tar.gz" $SRC
+fetch "https://ftp.osuosl.org/pub/lfs/lfs-packages/8.4/expect5.45.4.tar.gz" $SRC
 
 [ "$1" = "fetch" ] && exit 0
 
