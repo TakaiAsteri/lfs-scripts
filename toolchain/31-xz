@@ -12,7 +12,7 @@ SRC=${SRC:-$(dirname $0)/src}
 NAME=xz
 VERSION=${XZ_VER}
 
-fetch "https://tukaani.org/xz/xz-$XZ_VER.tar.xz" $SRC
+fetch "https://ftp.osuosl.org/pub/lfs/lfs-packages/8.4/xz-5.2.4.tar.xz" $SRC
 
 [ "$1" = "fetch" ] && exit 0
 
