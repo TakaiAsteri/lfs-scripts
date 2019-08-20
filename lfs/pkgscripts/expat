@@ -7,7 +7,7 @@ set -e
 
 name=$(basename $0)
 version=2.2.6
-url=https://prdownloads.sourceforge.net/expat/expat-$version.tar.bz2
+url=https://ftp.osuosl.org/pub/lfs/lfs-packages/8.4/expat-2.2.6.tar.bz2
 
 fetch $url
 
