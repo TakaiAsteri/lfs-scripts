@@ -7,7 +7,7 @@ set -e
 
 name=$(basename $0)
 version=1.44.3
-url=https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v$version/e2fsprogs-$version.tar.gz
+url=https://ftp.osuosl.org/pub/lfs/lfs-packages/8.3/e2fsprogs-1.44.3.tar.gz
 
 fetch $url
 
