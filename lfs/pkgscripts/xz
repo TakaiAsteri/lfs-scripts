@@ -7,7 +7,7 @@ set -e
 
 name=$(basename $0)
 version=5.2.4
-url=https://tukaani.org/xz/xz-$version.tar.xz
+url=https://ftp.osuosl.org/pub/lfs/lfs-packages/8.4/xz-5.2.4.tar.xz
 
 fetch $url
 
