@@ -7,6 +7,7 @@ This repo contain scripts to automate LFS build + livecd.
 * sudo
 * passes lfs version-check.sh test
 * squashfs-tools & libisoburn (optional to create the livecd iso)
+* export FORCE_UNSAFE_CONFIGURE=1
 
 #### scripts
 
